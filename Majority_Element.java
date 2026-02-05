@@ -1,5 +1,5 @@
 import java.util.HashMap;
-
+//THERE ARE BRUTE FORCE AS WELL AS OPTIAML SOLUTION PRESENT HERE
 public class Majority_Element {
     static int Majority_in_array(int [] arr,int n){
         HashMap<Integer,Integer>map=new HashMap<>();
@@ -45,4 +45,5 @@ public class Majority_Element {
         System.out.println(final_ans);
     }
 }
+
 
